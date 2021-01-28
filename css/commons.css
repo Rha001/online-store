@@ -1,0 +1,35 @@
+/* Flex */
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+/* End Of Flex */
+
+.block {
+    display: block;
+}
+
+/* Margins and Paddings */
+.mr-20 {
+    margin-right: 1.25rem;
+}
+
+.ml-4 {
+    margin-left: 0.25rem;
+}
+/* End Of Margins and Paddings */
+
+/* Text */
+.text-center {
+    text-align: center;
+}
+
+.font-light-12 {
+    font-weight: 300;
+    font-size: 0.75rem;
+}
+/* End of Text */

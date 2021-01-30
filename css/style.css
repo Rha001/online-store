@@ -54,14 +54,7 @@ body {
     font-size:17px;
 }
 
-.dot{
-    height: 34px;
-    width: 34px;
-    background-color: #7E72F2;
-    border-radius: 50%;
-    display: inline-block;
-}
-.settingsIcon{
+.settingsIcon {
     width: 3px;
     height: 3px;
     padding: 20px;
@@ -69,21 +62,24 @@ body {
     background-color: #7E72F2;
     line-height: 3px;
     text-align: center;
-} 
-.settingsIma{
+}
+
+.settingsIma {
     width: 100%;
     height: auto;
     position: relative;
     top: 50%;
     transform: translate(0%, -50%);
 }
-.settingsIcon{
+
+.settingsIcon {
     width: 1px;
     height: 1px;
     border-radius: 50%;
     background-color: #7E72F2;
-} 
-.settingsIcon img{
+}
+
+.settingsIcon img {
     transform: translate(-45%, -45%);
 }
 

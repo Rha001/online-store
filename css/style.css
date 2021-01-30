@@ -31,14 +31,11 @@ body {
     padding: 0 20px;
 }
 
-.container .settingsBar {
-    justify-content: space-between;
-    margin-top: 15px;
-}
-
 .settingsBar {
     height: 62px;
     padding: 0 20px;
+    justify-content: space-between;
+    margin-top: 15px;
 }
 
 .profile-img img {
@@ -47,42 +44,20 @@ body {
     height: 34px;
 }
 
-.eCommerce {
-    cursor:pointer;
-    color:#7E72F2;
-    font: bold;
-    font-size:17px;
+.text-link {
+    cursor: pointer;
+    color: #7E72F2;
+    font-size: 17px;
+    text-decoration: none;
 }
 
 .settingsIcon {
-    width: 3px;
-    height: 3px;
-    padding: 20px;
-    border-radius: 50%;
-    background-color: #7E72F2;
-    line-height: 3px;
-    text-align: center;
-}
-
-.settingsIma {
-    width: 100%;
-    height: auto;
-    position: relative;
-    top: 50%;
-    transform: translate(0%, -50%);
-}
-
-.settingsIcon {
-    width: 1px;
-    height: 1px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     background-color: #7E72F2;
 }
 
 .settingsIcon img {
-    transform: translate(-45%, -45%);
-}
-
-.electronics {
-    font:bold;
+    margin: auto;
 }

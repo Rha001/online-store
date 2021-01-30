@@ -35,3 +35,23 @@
     font-size: 0.75rem;
 }
 /* End of Text */
+
+/* Media Queries */
+
+.hide-block-sm, .hide-flex-sm {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .hide-block-sm {
+        display: block;
+    }
+
+    .hide-flex-sm {
+        display: flex;
+    }
+}
+
+@media (min-width: 992px) {
+    
+}

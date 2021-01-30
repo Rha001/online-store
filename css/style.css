@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    padding: 33px;
+    padding: 16px;
     background: #F9F9F9;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0778245);
     height: 100%;
@@ -29,6 +29,10 @@ body {
     border-radius: 8px;
     height: 62px;
     padding: 0 20px;
+}
+
+.appHeaderRight {
+    margin: auto;
 }
 
 .settingsBar {
@@ -60,4 +64,20 @@ body {
 
 .settingsIcon img {
     margin: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .appHeaderRight {
+        margin: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        padding: 33px;
+    }
 }

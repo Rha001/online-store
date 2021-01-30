@@ -8,6 +8,16 @@
     background-size: 20px 20px;
     cursor: pointer;
 }
+.icon-30 {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+}
 
 .check-sqare {
     background-image: url('./images/check-square.svg');
@@ -35,4 +45,16 @@
 
 .search {
     background-image: url('./images/search.svg');
+}
+
+.path {
+    background-image: url('./images/Path.svg');
+}
+
+.home {
+    background-image: url('./images/home.svg');
+}
+
+.chevrons-right{
+    background-image: url('./images/chevrons-right.svg');
 }

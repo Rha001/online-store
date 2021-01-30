@@ -72,6 +72,14 @@ body {
     transform: translate(0%, -50%);
 }
 
+.settingsIma {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
 .settingsIcon {
     width: 1px;
     height: 1px;

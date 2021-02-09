@@ -31,6 +31,22 @@ body {
     padding: 0 20px;
 }
 
+.filterBox {
+    height: 1519px;
+    width: 371px;
+    margin: 20px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 8px;
+    color: #FFFFFF;
+
+}
+
+.searchBar {
+    height: 62px;
+    width: 1171px;
+    color: #FFFFFF;
+}
+
 .appHeaderRight {
     margin: auto;
 }

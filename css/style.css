@@ -1,6 +1,9 @@
 @import './commons.css';
 @import './icons.css';
 
+* {
+    box-sizing: border-box;
+}
 
 html, body {
     width: 100%;
@@ -24,27 +27,16 @@ body {
 
 .container .appHeader {
     justify-content: space-between;
-    background-color: #FFFFFF;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
-    border-radius: 8px;
     height: 62px;
     padding: 0 20px;
 }
 
-.filterBox {
-    height: 1519px;
-    width: 371px;
-    margin: 20px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
-    border-radius: 8px;
-    color: #FFFFFF;
-
+.mainLayout {
+    height: 900px;
 }
 
-.searchBar {
-    height: 62px;
-    width: 1171px;
-    color: #FFFFFF;
+.filterBox {
+    width: 310px;
 }
 
 .appHeaderRight {
@@ -76,6 +68,10 @@ body {
     width: 40px;
     border-radius: 50%;
     background-color: #7E72F2;
+}
+
+.searchBar {
+    padding: 15px 30px;
 }
 
 .settingsIcon img {

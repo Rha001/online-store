@@ -1,8 +1,31 @@
+.panel {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 0.5rem;
+    background-color: #FFFFFF;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+/* Borders */
+
+.b-0 {
+    border: 0;
+}
+
 /* Flex */
 .flex {
     display: flex;
 }
 
+.flex-grow-1 {
+    flex-grow: 1;
+}
 
 .items-center {
     align-items: center;
@@ -15,6 +38,10 @@
 }
 
 /* Margins and Paddings */
+.m-30 {
+    margin: 1.875rem;
+}
+
 .mr-20 {
     margin-right: 1.25rem;
 }
@@ -23,14 +50,32 @@
     margin-right: 22px;
 }
 
+.mr-30 {
+    margin-right: 1.875rem;
+}
+
 .ml-4 {
     margin-left: 0.25rem;
 }
+
+.mt-30 {
+    margin-top: 1.875rem;
+}
+
+.p-30 {
+    padding: 1.875rem;
+}
+
 /* End Of Margins and Paddings */
 
 /* Text */
 .text-center {
     text-align: center;
+}
+
+.font-22 {
+    font-size: 22px;
+    line-height: 26px;
 }
 
 .font-light-12 {
@@ -41,9 +86,18 @@
 
 /* Media Queries */
 
-.hide-block-sm, .hide-flex-sm {
+.hide-block-sm,
+.hide-flex-sm,
+.show-block-xl {
     display: none;
 }
+
+/*
+    sm = mobile 0px - 767px
+    md = tablet 768px - 991px
+    lg = desktop 992px - 1200
+    xl = large desktop 1200px and above
+*/
 
 @media (min-width: 768px) {
     .hide-block-sm {
@@ -57,4 +111,10 @@
 
 @media (min-width: 992px) {
     
+}
+
+@media (min-width: 1200px) {
+    .show-block-xl{
+        display: block;
+    }
 }

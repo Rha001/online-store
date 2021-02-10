@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="appHeader flex items-center">
+        <div class="appHeader flex items-center panel">
             <div class="appHeaderLeft flex hide-flex-sm">
                 <i class="icon-20 mr-22 check-sqare"></i>
                 <i class="icon-20 mr-22 message-sqare"></i>
@@ -45,8 +45,20 @@
                 <img src="./css/images/settings.svg">
             </div>
         </div>
-        <div class="filterBox">
+        <div class="panels flex mt-30 mainLayout">
+            <div class="leftPanel panel filterBox show-block-xl h-full mr-30 p-30">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et explicabo vel amet placeat quasi exercitationem saepe. Expedita incidunt enim eveniet consequatur dolores tempore perferendis, a quo veritatis consequuntur id commodi!
+            </div>
+            <div class="rightPanel flex-grow-1">
+                <input type="text" class="panel searchBar font-22 w-full b-0" placeholder="Search hear" id="searchBar" />
+                <div class="itemsContainer mt-30">
+                    <div class="panel">Item 1</div>
+                    <div class="panel">Item 1</div>
+                    <div class="panel">Item 1</div>
+                </div>
+            </div>
         </div>
+        
     </div>
 </body>
 </html>

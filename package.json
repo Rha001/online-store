@@ -1,0 +1,32 @@
+{
+  "name": "online-store",
+  "version": "1.0.0",
+  "description": "A simple online store to practice reactJs",
+  "main": "webpack.config.js",
+  "scripts": {
+    "watch": "webpack-cli serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rha001/online-store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rha001/online-store/issues"
+  },
+  "homepage": "https://github.com/Rha001/online-store#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "path": "^0.12.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

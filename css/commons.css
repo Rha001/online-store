@@ -8,6 +8,10 @@
     width: 100%;
 }
 
+.w-50 {
+    width: 50%;
+}
+
 .h-full {
     height: 100%;
 }
@@ -16,6 +20,10 @@
 
 .b-0 {
     border: 0;
+}
+
+.outline-0 {
+    outline: 0;
 }
 
 /* Flex */
@@ -27,8 +35,16 @@
     flex-grow: 1;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .items-center {
     align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
 }
 
 /* End Of Flex */
@@ -36,6 +52,16 @@
 .block {
     display: block;
 }
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+/* grid */
 
 /* Margins and Paddings */
 .m-30 {
@@ -62,6 +88,18 @@
     margin-top: 1.875rem;
 }
 
+.mb-20 {
+    margin-bottom: 1.25rem;
+}
+
+.mb-30 {
+    margin-bottom: 1.875rem;
+}
+
+.p-20 {
+    padding: 1.25rem;
+}
+
 .p-30 {
     padding: 1.875rem;
 }
@@ -83,6 +121,12 @@
     font-size: 0.75rem;
 }
 /* End of Text */
+
+/* Background-colors */
+
+.bg-white {
+    background-color: #FFFFFF;
+}
 
 /* Media Queries */
 

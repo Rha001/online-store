@@ -21,8 +21,8 @@ body {
 .container {
     padding: 16px;
     background: #F9F9F9;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0778245);
-    height: 100%;
+    max-width: 1400px;
+    margin: auto;
 }
 
 .container .appHeader {
@@ -32,7 +32,6 @@ body {
 }
 
 .mainLayout {
-    height: 900px;
 }
 
 .filterBox {
@@ -78,6 +77,20 @@ body {
     margin: auto;
 }
 
+.itemsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.item {
+    height: 200px;
+}
+
+.itemControls {
+    bottom: 0px;
+}
+
 @media (min-width: 768px) {
     .container {
         padding: 20px;
@@ -86,10 +99,18 @@ body {
     .appHeaderRight {
         margin: 0;
     }
+
+    .itemsContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media (min-width: 992px) {
     .container {
         padding: 33px;
+    }
+
+    .itemsContainer {
+        grid-template-columns: repeat(4, 1fr);
     }
 }

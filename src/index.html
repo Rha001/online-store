@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Store</title>
 </head>
 <body>
     <div id="app"></div>
     <div class="container">
-        <div class="appHeader flex items-center panel">
+        <div class="appHeader flex items-center panel justify-between">
             <div class="appHeaderLeft flex hide-flex-sm">
                 <i class="icon-20 mr-22 check-sqare"></i>
                 <i class="icon-20 mr-22 message-sqare"></i>
@@ -48,7 +48,88 @@
         </div>
         <div class="panels flex mt-30 mainLayout">
             <div class="leftPanel panel filterBox show-block-xl h-full mr-30 p-30">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et explicabo vel amet placeat quasi exercitationem saepe. Expedita incidunt enim eveniet consequatur dolores tempore perferendis, a quo veritatis consequuntur id commodi!
+                <div class="filterPrice">
+                    <h4 class="font-18">Multi Range</h4>
+                    <input id="price1" type="radio" name="price" value="10">
+                    <label for="price1">$10</label><br>
+                    <input id="price2" type="radio" name="price" value="10-100">
+                    <label for="price2">$10-$100</label><br>
+                    <input id="price3" type="radio" name="price" value="100-500">
+                    <label for="price3">$100-$500</label><br>
+                    <input id="price4" type="radio" name="price" value="500">
+                    <label for="price4">$500</label><br>
+                    <input id="price5" type="radio" name="price" value="All">
+                    <label for="price5">All</label><br>
+                </div>
+                <hr class="mt-16"/>
+                <div class="filterRating">
+                    <h4>Rating</h4>
+                    <div class="ratingBox flex">
+                        <div class="rating flex">
+                            <i class="icon-18 mr-8 star"></i>
+                            <i class="icon-18 mr-8 star"></i>
+                            <i class="icon-18 mr-8 star"></i>
+                            <i class="icon-18 mr-8 star"></i>
+                            <i class="icon-18 mr-16 star"></i>
+                        </div>
+                        <div class="flex justify-between flex-grow-1">
+                            <span>&up</span>
+                            <span>9001</span>
+                        </div>
+                    </div>
+                    <div class="ratingBox flex mt-16">
+                        <div class="rating flex">
+                            <i class="icon-18 mr-8 star"></i>
+                            <i class="icon-18 mr-8 star"></i>
+                            <i class="icon-18 mr-8 star"></i>
+                            <i class="icon-18 mr-8 star"></i>
+                            <i class="icon-18 mr-16 star-grey"></i>
+                        </div>
+                        <div class="flex justify-between flex-grow-1">
+                            <span>&up</span>
+                            <span>9001</span>
+                        </div>
+                    </div>
+                    <div class="ratingBox flex mt-16">
+                        <div class="rating flex">
+                            <i class="icon-18 mr-8 star"></i>
+                            <i class="icon-18 mr-8 star"></i>
+                            <i class="icon-18 mr-8 star"></i>
+                            <i class="icon-18 mr-8 star-grey"></i>
+                            <i class="icon-18 mr-16 star-grey"></i>
+                        </div>
+                        <div class="flex justify-between flex-grow-1">
+                            <span>&up</span>
+                            <span>9001</span>
+                        </div>
+                    </div>
+                    <div class="ratingBox flex mt-16">
+                        <div class="rating flex">
+                            <i class="icon-18 mr-8 star"></i>
+                            <i class="icon-18 mr-8 star"></i>
+                            <i class="icon-18 mr-8 star-grey"></i>
+                            <i class="icon-18 mr-8 star-grey"></i>
+                            <i class="icon-18 mr-16 star-grey"></i>
+                        </div>
+                        <div class="flex justify-between flex-grow-1">
+                            <span>&up</span>
+                            <span>9001</span>
+                        </div>
+                    </div>
+                    <div class="ratingBox flex mt-16">
+                        <div class="rating flex">
+                            <i class="icon-18 mr-8 star"></i>
+                            <i class="icon-18 mr-8 star-grey"></i>
+                            <i class="icon-18 mr-8 star-grey"></i>
+                            <i class="icon-18 mr-8 star-grey"></i>
+                            <i class="icon-18 mr-16 star-grey"></i>
+                        </div>
+                        <div class="flex justify-between flex-grow-1">
+                            <span>&up</span>
+                            <span>9001</span>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="rightPanel flex-grow-1">
                 <form action="#">
@@ -65,10 +146,26 @@
                 </form>
                 <div class="itemsContainer mt-30 grid">
                     <div class="panel item relative">
-                        <div class="itemPicture p-20">Picture goes here</div>
+                        <div class="itemPicture p-20 text-center">
+                            <img src="./css/images/apple-watch.jpg" alt="apple watch">
+                        </div>
+                        <div class="itemDetails flex justify-between px-20">
+                            <span>3.4</span>
+                            <span>$399</span>
+                        </div>
+                        <div class="itemDescription px-20">
+                            <p>Apple Watch Series 4 GPS</p>
+                            <p>Redesigned from scratch and completely revised.</p>
+                        </div>
                         <div class="itemControls absolute flex w-full text-center">
-                            <div class="wishlist w-50">Wishlist</div>
-                            <div class="addCart w-50">Add to cart</div>
+                            <div class="wishlist w-50 flex justify-center">
+                                <i class="icon-18 mr-8 heart"></i>
+                                Wishlist
+                            </div>
+                            <div class="addCart w-50 flex justify-center">
+                                <i class="icon-18 mr-8 shopping-bag m-auto"></i>
+                                Add to cart
+                            </div>
                         </div>
                     </div>
                     <div class="panel item">Item 1</div>

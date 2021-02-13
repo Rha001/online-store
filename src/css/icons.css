@@ -1,3 +1,13 @@
+.icon-18 {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18px 18px;
+    cursor: pointer;
+}
+
 .icon-20 {
     width: 20px;
     height: 20px;
@@ -38,6 +48,10 @@
     background-image: url('./images/star.svg');
 }
 
+.star-grey {
+    background-image: url('./images/star-grey.svg');
+}
+
 .bell {
     background-image: url('./images/bell.svg');
 }
@@ -56,4 +70,12 @@
 
 .chevrons-right{
     background-image: url('./images/chevrons-right.svg');
+}
+
+.heart {
+    background-image: url('./images/heart.svg');
+}
+
+.shopping-bag {
+    background-image: url('./images/shopping-bag.svg');
 }

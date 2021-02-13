@@ -5,4 +5,4 @@ import ReactDOM from 'react-dom';
 import Root from './components/root/Root'
 
 const container = document.getElementById('app');
-ReactDOM.render(<Root />, container);
+// ReactDOM.render(<Root />, container);

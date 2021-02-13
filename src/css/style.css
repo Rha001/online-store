@@ -26,16 +26,18 @@ body {
 }
 
 .container .appHeader {
-    justify-content: space-between;
     height: 62px;
     padding: 0 20px;
 }
 
-.mainLayout {
-}
-
 .filterBox {
     width: 310px;
+}
+
+.filterBox hr {
+    border: 0;
+    height: 1px;
+    background-color: #D6D6D6;
 }
 
 .appHeaderRight {
@@ -84,11 +86,44 @@ body {
 }
 
 .item {
-    height: 200px;
+    padding-bottom: 45px;
+}
+
+.item .itemPicture {
+    height: 150px;
+}
+
+.item .itemPicture img {
+    height: 100%;
 }
 
 .itemControls {
     bottom: 0px;
+}
+
+.itemControls div {
+    height: 45px;
+    line-height: 45px;
+    vertical-align: middle;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+}
+
+.itemControls div i {
+    margin: auto 0.5rem auto 0;
+}
+
+.itemControls .wishlist {
+    background-color: #EDEDED;
+    border-radius: 0 0 0 0.5rem;
+}
+
+.itemControls .addCart {
+    background-color: #6F64F8;
+    border-radius: 0 0 0.5rem 0;
+    color: #FFF;
 }
 
 @media (min-width: 768px) {

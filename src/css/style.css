@@ -7,7 +7,6 @@
 
 html, body {
     width: 100%;
-    height: 100%;
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
@@ -79,22 +78,16 @@ body {
     margin: auto;
 }
 
-.itemsContainer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-}
-
 .item {
     padding-bottom: 45px;
 }
 
 .item .itemPicture {
-    height: 150px;
+    padding: 20px 100px;
 }
 
 .item .itemPicture img {
-    height: 100%;
+    width: 100%;
 }
 
 .itemControls {
@@ -126,6 +119,46 @@ body {
     color: #FFF;
 }
 
+.rateTag {
+    background-color: #6F64F8;
+    color: #FFF;
+    padding: 4px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.rateTag i {
+    margin-top: -3px;
+}
+
+.itemDescription p {
+    padding: 0;
+}
+
+.itemDescription .name {
+    margin: 14px 0 4px;
+}
+
+.itemDescription .description {
+    margin: 0 0 20px;
+}
+
+.itemsContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+}
+
+@media (min-width: 550px) {
+    .itemsContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .item .itemPicture {
+        padding: 20px 50px;
+    }
+}
+
 @media (min-width: 768px) {
     .container {
         padding: 20px;
@@ -144,6 +177,16 @@ body {
     .container {
         padding: 33px;
     }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        padding: 33px;
+    }
+
+    /* .item .itemPicture {
+        height: 250px;
+    } */
 
     .itemsContainer {
         grid-template-columns: repeat(4, 1fr);
